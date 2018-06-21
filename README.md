@@ -1,6 +1,7 @@
 # what's this?
 
-We're demonstrating how we may use zeit on CodePen to do webpack builds.
+We're demonstrating how we may use zeit on CodePen to do webpack builds. I've some use-cases
+are listed [here](https://www.notion.so/codepen/now-example-bf22acf416f34196b10366b80a47349c)
 
 # TO BUILD
 
