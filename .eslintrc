@@ -1,0 +1,94 @@
+{
+    "globals": {
+        "$": false,
+        "_": false,
+        "__CPDATA": false,
+        "afterEach": false,
+        "AJAXUtil": false,
+        "chai": false,
+        "Class": false,
+        "console": true,
+        "CP": false,
+        "describe": false,
+        "expect": false,
+        "ga": false,
+        "Hub": false,
+        "it": false,
+        "jQuery": false,
+        "ObjectUtil": false
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true,
+            "modules": true
+        }
+    },
+    "rules": {
+        "indent": [
+            2, 2, {
+                "SwitchCase": 1
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "global-strict": 0,
+        "strict": 0,
+        "no-unused-vars": [
+            2,
+            {
+                "vars": "local",
+                "args": "after-used"
+            }
+        ],
+        "key-spacing": 0,
+        "no-multi-spaces": 0,
+        "no-underscore-dangle": 0,
+        "camelcase": 0,
+        "no-console": 0,
+        "valid-jsdoc": [
+            2,
+            {
+                "prefer": {
+                    "return": "returns"
+                }
+            }
+        ],
+        "no-global-strict": 0,
+        "brace-style": [
+            2,
+            "1tbs"
+        ],
+        "func-style": [
+            2,
+            "declaration"
+        ],
+        "guard-for-in": 0,
+        "no-floating-decimal": 2,
+        "no-nested-ternary": 2,
+        "radix": 0,
+        "wrap-iife": 0
+    },
+    "extends": "eslint:recommended"
+}
